@@ -1,19 +1,23 @@
 "use client";
-import { RiGithubFill, RiLinkedinFill, RiFacebookFill } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill, RiFacebookFill, RiTwitterXFill } from "react-icons/ri";
 import Link from "next/link";
 
 const icons = [
   {
-    path: "/",
+    path: "https://github.com/Shakilofficial",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/md-shakil-hossain-60564519b",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/iamshakilhossain",
     name: <RiFacebookFill />,
+  },
+  {
+    path: "https://twitter.com/creative_shakil",
+    name: <RiTwitterXFill />,
   },
 ];
 const Socials = ({ containerStyles, iconStyles }) => {

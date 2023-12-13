@@ -22,7 +22,7 @@ const ServicesData = [
   },
   {
     icon: <Gem size={72} StrokeWidth={0.8} />,
-    title: "Figma to Web App",
+    title: "Figma to Web",
     description:
       "Transforming Figma designs into captivating and responsive web applications, bringing your creative vision to life online.",
   },

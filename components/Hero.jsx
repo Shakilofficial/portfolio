@@ -1,10 +1,9 @@
 import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 // import { RiBriefcase4Fill, RiTeamFill, RiTodoFill } from "react-icons/ri";
-import { RiArrowDownSLine, RiTeamFill, RiTodoFill } from "react-icons/ri";
-
+import { RiArrowDownSLine } from "react-icons/ri";
+const CV = "/personal/My Resume.pdf";
 import DevImg from "./DevImg";
-import Badge from "./Badge";
 
 import Link from "next/link";
 import Socials from "./Socials";
@@ -33,11 +32,11 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Link href="/contact">
+              <a href={CV} download>
                 <Button variant="secondary" className="gap-x-2">
                   Download CV <Download size={18} />
                 </Button>
-              </Link>
+              </a>
             </div>
             <Socials
               containerStyles="flex gap-x-6 mx-auto lg:mx-0"
@@ -46,7 +45,10 @@ const Hero = () => {
           </div>
           <div className="hidden lg:flex relative">
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
-              <DevImg containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom' imgSrc='/personal/hero-img.png' />
+              <DevImg
+                containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+                imgSrc="/personal/hero-img.png"
+              />
             </div>
           </div>
         </div>
