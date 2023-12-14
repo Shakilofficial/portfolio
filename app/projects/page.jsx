@@ -3,6 +3,7 @@
 import ProjectCard from "@/components/ProjectCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState } from "react";
+
 const projectData = [
   {
     image: "/project/cityScape.png",
@@ -67,7 +68,7 @@ const Projects = () => {
       ? project
       : project.category === category;
   });
-  console.log(filteredProjects);
+
   return (
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">
