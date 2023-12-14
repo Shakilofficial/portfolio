@@ -1,3 +1,19 @@
+# Features of the Portfolio Site
+
+### Project Showcase:
+
+Create a section where you showcase your recent projects. Include project names, brief descriptions, and links to live demos or GitHub repositories. This allows visitors to see your work at a glance.
+
+### Dynamic Theming:
+
+Implement a dark and light theme toggle for your portfolio. This feature enhances user experience and provides a personalized touch to your site.
+
+### Contact Form:
+
+Include a contact form or provide your email address for visitors to reach out to you. This adds an interactive element, allowing potential employers or collaborators to connect with you easily.
+
+### Live Link: https://y-k19i9lh79-shakilofficial.vercel.app
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,4 +50,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # portfolio
