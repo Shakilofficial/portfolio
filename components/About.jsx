@@ -264,10 +264,10 @@ const About = () => {
                             const { name, icon } = item;
                             return (
                               <div
-                                className="w-36 mx-auto h-24 border-2 rounded-lg hover:shadow-sm p-2"
+                                className="w-36 mx-auto h-24 border-2 rounded-lg hover:shadow-sm p-2 hover:bg-rose-600"
                                 key={index}
                               >
-                                <div className="h3 text-primary text-center">
+                                <div className="h3 text-primary hover:text-white text-center">
                                   <h3 className="mb-2 text-5xl flex justify-center items-center">
                                     {icon}
                                   </h3>
@@ -287,7 +287,7 @@ const About = () => {
                         {getData(skillData, "tools").data.map((item, index) => {
                           return (
                             <div
-                              className="w-24 h-24 border-2 border-primary rounded-full flex justify-center items-center"
+                              className="w-24 h-24 border-2 border-primary rounded-full flex justify-center items-center hover:bg-rose-900 dark:hover:bg-rose-50"
                               key={index}
                             >
                               <Image
