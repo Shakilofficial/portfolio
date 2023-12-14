@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import {
   SiCss3,
   SiExpress,
+  SiFirebase,
   SiHtml5,
   SiJavascript,
   SiMongodb,
@@ -99,6 +100,10 @@ const skillData = [
       {
         name: "React",
         icon: <SiReact />,
+      },
+      {
+        name: "Firebase",
+        icon: <SiFirebase />,
       },
       {
         name: "NextJS",
@@ -275,12 +280,24 @@ const About = () => {
                       </div>
                       <h4 className="h4 font-semibold my-2">Tools</h4>
                       <div className="border-b border-border mb-2"> </div>
-                      <div className="flex gap-2
-                      ">
+                      <div
+                        className="flex gap-2
+                      "
+                      >
                         {getData(skillData, "tools").data.map((item, index) => {
-                          return <div className="w-24 h-24 border-2 border-primary rounded-full flex justify-center items-center" key={index}>
-                            <Image className="" src={item.imgPath} height={36} width={48}/>
-                          </div>;
+                          return (
+                            <div
+                              className="w-24 h-24 border-2 border-primary rounded-full flex justify-center items-center"
+                              key={index}
+                            >
+                              <Image
+                                className=""
+                                src={item.imgPath}
+                                height={36}
+                                width={48}
+                              />
+                            </div>
+                          );
                         })}
                       </div>
                     </div>
