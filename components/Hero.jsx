@@ -1,9 +1,9 @@
-import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
+import { Button } from "./ui/button";
 // import { RiBriefcase4Fill, RiTeamFill, RiTodoFill } from "react-icons/ri";
 import { RiArrowDownSLine } from "react-icons/ri";
-const CV = "/public/personal/Resume of Md. Shakil Hossain.pdf";
 import DevImg from "./DevImg";
+const CV = "/public/personal/Resume of Md Shakil Hossain.pdf";
 
 import Link from "next/link";
 import Socials from "./Socials";
