@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 // import { RiBriefcase4Fill, RiTeamFill, RiTodoFill } from "react-icons/ri";
 import { RiArrowDownSLine } from "react-icons/ri";
 import DevImg from "./DevImg";
-const CV = "/public/personal/Resume of Md Shakil Hossain.pdf";
+const CV = "/personal/Resume of Md Shakil Hossain.pdf";
 
 import Link from "next/link";
 import Socials from "./Socials";
@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col text-center justify-center mx-auto lg:mx-0 lg:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Web Developer
+              MERN Stack Web Developer
             </div>
             <h1 className="h1 mb-4">
               Hello, I'm <br />
