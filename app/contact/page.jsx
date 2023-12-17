@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="flex flex-col gap-y-4 lg:gap-y-12 mb-12 lg:mb-20 text-base xl:text-lg">
             <div className="flex items-center gap-x-4">
               <MailIcon size={18} className="text-primary" />
-              <div>youremail@example.com</div>
+              <div>mrshakilhossain@outlook.com</div>
             </div>
             <div className="flex items-center gap-x-4">
               <HomeIcon size={18} className="text-primary" />
