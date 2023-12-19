@@ -1,6 +1,6 @@
 "use client";
-import { RiGithubFill, RiLinkedinFill, RiFacebookFill, RiTwitterXFill } from "react-icons/ri";
 import Link from "next/link";
+import { RiFacebookFill, RiGithubFill, RiLinkedinFill, RiTwitterXFill } from "react-icons/ri";
 
 const icons = [
   {
@@ -8,7 +8,7 @@ const icons = [
     name: <RiGithubFill />,
   },
   {
-    path: "https://www.linkedin.com/in/md-shakil-hossain-60564519b",
+    path: "https://www.linkedin.com/in/md-shakilhossain",
     name: <RiLinkedinFill />,
   },
   {
